@@ -39,9 +39,10 @@ Entrada --> Processamento --> Saída
 ---
 ## Operadores Lógicos
 | Operador | Simbologia | 
-|----------|-----------|----------|-----------|
+|----------|-----------|
 | AND | && |
-| OR | "||" |
+| OR | \|\|  |
+| NOT | ! |
 
 ---
 
