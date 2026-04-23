@@ -17,3 +17,4 @@ if (etanol < 0.7 * gasolina) {
 } else {
     console.log("Abasteça com Gasolina".bgRed)
 }
+
