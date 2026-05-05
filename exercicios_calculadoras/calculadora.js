@@ -58,38 +58,44 @@ function iniciarCalculadora() {
                 num1 = Number(prompt("Digite o primeiro número: "))
                 num2 = Number(prompt("Digite o segundo número: "))
                 resultado = somar(num1, num2)
+                console.log(`Resultado: ${resultado}`)
                 break
             case 2:
                 num1 = Number(prompt("Digite o primeiro número: "))
                 num2 = Number(prompt("Digite o segundo número: "))
                 resultado = subtrair(num1, num2)
+                console.log(`Resultado: ${resultado}`)
                 break
             case 3:
                 num1 = Number(prompt("Digite o primeiro número: "))
                 num2 = Number(prompt("Digite o segundo número: "))
                 resultado = multiplicar(num1, num2)
+                console.log(`Resultado: ${resultado}`)
                 break
             case 4:
                 num1 = Number(prompt("Digite o primeiro número: "))
                 num2 = Number(prompt("Digite o segundo número: "))
                 resultado = dividir(num1, num2)
+                console.log(`Resultado: ${resultado}`)
                 break
             case 5:
                 num1 = Number(prompt("Digite o primeiro número: "))
                 resultado = raizquadrada(num1)
+                console.log(`Resultado: ${resultado}`)
                 break
             case 6:
                 num1 = Number(prompt("Digite o primeiro número: "))
                 num2 = Number(prompt("Digite o segundo número: "))
-                resultado = porcentagem(`A porcentagem de ${valor} é: `)
-                return
+                resultado = porcentagem(valor)
+                console.log(`A porcentagem de ${num2} é: ${resultado}`)
+                break
             default:
                 console.log("Opção Inválida")
                 prompt("Pressione [Enter] para continuar ")
                 continue
             }
             //exibir resultado
-            console.log(`Resultado: ${resultado}`)
+            
             prompt("Pressione [Enter] para continuar ")
     } while (true)
 }
