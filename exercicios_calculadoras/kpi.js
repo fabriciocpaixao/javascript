@@ -75,7 +75,7 @@ function iniciarCalculadora() {
                 } else if (resultado < 400) {
                     console.log("")
                     console.log("Advertência verbal ou plano de melhoria.")
-                } else if (resultado < 600) {
+                } else if (resultado <= 600) {
                     console.log("")
                     console.log("Advertência formal ou suspensão.")
                 } else if (resultado > 600) {

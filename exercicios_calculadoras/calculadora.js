@@ -84,10 +84,10 @@ function iniciarCalculadora() {
                 console.log(`Resultado: ${resultado}`)
                 break
             case 6:
-                num1 = Number(prompt("Digite o primeiro número: "))
-                num2 = Number(prompt("Digite o segundo número: "))
+                num1 = Number(prompt("Digite o valor da porcetagem: "))
+                num2 = Number(prompt("Digite o valor total: "))
                 resultado = porcentagem(valor)
-                console.log(`A porcentagem de ${num2} é: ${resultado}`)
+                console.log(`A porcentagem de ${num2} é: ${resultado.toFixed(2)}`)
                 break
             default:
                 console.log("Opção Inválida")
