@@ -170,3 +170,12 @@ alunosOrdenados.sort((a, z) => {
     return (a.nome.localeCompare(z.nome))
 })
 console.table(alunosOrdenados)
+
+/* alunosOrdenados.sort((b, c) => {
+    return (b.idade - c.idade)
+})
+
+console.table(alunosOrdenados)
+
+codigo feito somente para saber sobre a ordenação de números
+*/
